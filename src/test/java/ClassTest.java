@@ -36,7 +36,7 @@ public class ClassTest {
     public void DivisionTest() {
         String[] result = model.division("x^5+2x-9", "x^3-3x^2-12");
         String testCat = "x^2+3.0x+9.0";
-        String testRest = "x^2+3.0x+9.0";
+        String testRest = "39.0x^2+38.0x+99.0";
         assertEquals(result[0], testCat); //testing the quotient
         assertEquals(result[1], testRest); //testing the remainder
     }
